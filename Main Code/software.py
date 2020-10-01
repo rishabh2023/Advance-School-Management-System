@@ -12,7 +12,7 @@ import os
 
 
 rect = []
-ss = 'Prime Motivation 2020-2021 Session'
+ss = 'Welcome in 2020-2021 Session'
 count = 0
 text = '' 
 root = Tk()

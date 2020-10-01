@@ -6,8 +6,8 @@ base = None
 if sys.platform == 'win32':
     base = "Win32GUI"
 
-os.environ['TCL_LIBRARY'] = r"C:\Users\sahuj\AppData\Local\Programs\Python\Python38\tcl\tcl8.6"
-os.environ['TK_LIBRARY'] = r"C:\Users\sahuj\AppData\Local\Programs\Python\Python38\tcl\tk8.6"
+os.environ['TCL_LIBRARY'] = r""# Enter path till tcl8.6
+os.environ['TK_LIBRARY'] = r""# Enter path till tk8.6
 
 executables = cx_Freeze.Executable("software.py", base=base,shortcutName='School Management',icon = 'school.ico' )
 
